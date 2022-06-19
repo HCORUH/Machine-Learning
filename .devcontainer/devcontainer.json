@@ -1,0 +1,16 @@
+{
+  "name": "machine-learning",
+  "build": {
+    "context": "../",
+    "dockerfile": "../Dockerfile"
+  },
+  "extensions": [
+    "bungcip.better-toml",
+    "ms-python.python"
+  ],
+  "postAttachCommand": [
+    "pipenv",
+    "sync",
+    "--dev"
+  ]
+}

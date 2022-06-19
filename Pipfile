@@ -1,0 +1,18 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+chainconsumer = "~=0.33.0"
+numpy = "*"
+pandas = "~=1.0"
+scikit-learn = "~=1.1"
+
+[dev-packages]
+autopep8 = "*"
+ipykernel = "*"
+pylint = "*"
+
+[requires]
+python_version = "3.9"
